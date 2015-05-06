@@ -14,10 +14,10 @@ The Essence project done...right?
     - special syntax for matcher options: `...->withOptionName(optionValue, ...)`
     - aliases are supported too (1+ for any matcher)!
     - there are less matchers, but each one of them has more features than previously
-4. Clarity::runLast() and Clarity::runAll() methods is all you need.
+4. Clarity::runLast() and Clarity::runAll() methods are all you need.
     - stupid things like `implicit_validation` were removed, ugh
     - integration with existing popular testing frameworks like *PhpUnit*
-5. Later, Clarity will obtain its own test runner (and code coverage tools integration!).
+5. Later, Clarity will obtain its own test runner (and integration with code coverage tools!).
 6. Even more cool stuff coming.
 
 ## License
