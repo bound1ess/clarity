@@ -1,0 +1,17 @@
+formatter.name: pretty
+
+suites:
+    clarity_suite:
+        namespace: Clarity
+        src_path: src
+        spec_path: .
+        spec_prefix: specs
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+    format:
+        - html
+    output:
+        html: coverage
